@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#weather{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpapercave.com/wp/wp10154399.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.weather{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(93, 88, 88, 0.5);
+}
+.weather-input{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-image: url(https://wallpapercave.com/wp/wp10154399.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.weather-input input{
+    top: 50px;
+    left: 520px;
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    padding: 5px;
+}
+.weather-input button{
+    position: absolute;
+    top: 50px;
+    left: 699px;
+    width: 40px;
+    height: 30px;
+}
+
+.weather-text{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(25, 24, 24,0.7);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.weather-text hr{
+    border-bottom: 1px solid white;
+    width: 100%;
+}
